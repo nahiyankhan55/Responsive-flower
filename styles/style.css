@@ -408,7 +408,7 @@ nav a.active {
 
 .footer-links div p {
   color: #666;
-  margin: 5px 0;
+  margin: 30px 0;
   font-size: 0.9rem;
   cursor: pointer;
 }
@@ -427,7 +427,7 @@ nav a.active {
 
 
 /* Responsive Styles for Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .navbar {
     padding: 20px;
   }
@@ -471,10 +471,11 @@ nav a.active {
   }
 
   .product-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
   }
-
   .trusted-section {
     flex-direction: column;
     padding: 40px 20px;
@@ -503,8 +504,8 @@ nav a.active {
 
   .deal-card.small,
   .deal-card.large {
-    width: 100%;
-    max-width: 90%;
+    /* width: 100%; */
+    max-width: 100%;
   }
 
   .subscribe-section {
