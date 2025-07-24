@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8faff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.brand {
+  font-family: 'Playfair Display', serif;
+  color: #d9480f;
+  font-size: 20px;
+  line-height: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 400;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text .black {
+  color: #000;
+  font-weight: bold;
+}
+
+.hero-text .orange {
+  color: #f26522;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  height: auto;
+}
+
+
