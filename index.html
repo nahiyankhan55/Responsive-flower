@@ -1,137 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Flower</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flower</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/f46e9011ac.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
 
 <body>
-    <!-- Navbar section -->
-  <header class="navbar">
+  <!-- Navbar section -->
+  <header class="container">
+   <div class="navbar">
     <div class="logo">
-      <img src="./assets/logo.png" alt="Logo" />
+    <img src="./assets/logo.png" alt="Logo" />
     </div>
-    <nav>
-      <ul>
+    <div class="list">
+      <ul class="list-items">
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#"> Cart ($56)</a></li>
+        <li><a href="#" class="active">Shop</a></li>
+        <li><a href="#" class="active">About us</a></li>
+        <li><a href="#"> <i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
       </ul>
-    </nav>
-  </header>
-  <!-- Banner Section -->
-  <section class="hero">
+    </div>
+   </div>
+      <!-- Banner Section -->
+  <section class="hero container">
     <div class="hero-text">
-      <h1><span class="black">ALWAYS</span> <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span></h1>
-      <p class="description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+      <h1><span class="black">ALWAYS</span> <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span>
+      </h1>
+      <p class="description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+        roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
     </div>
     <div class="hero-image">
-    <img src="./assets/hero-flower.png" alt="Fresh Flowers" />
+      <img src="./assets/hero-flower.png" alt="Fresh Flowers" />
     </div>
   </section>
-   <!-- card section -->
+  </header>
+  <!-- card section -->
   <section class="product-section">
-  <h2><span class="black">Our</span> <span class="orange">Plants</span></h2>
-  <p class="product-description description">
-    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
-  </p>
+    <h2><span class="black">Our</span> <span class="orange">Plants</span></h2>
+    <p class="product-description description">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms,
+      we offer a wide variety of fresh.
+    </p>
 
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
-  
-    
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
-    </div>
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <div class="product-card">
-      <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
-      <h3>Lily Blossom</h3>
-      <p class="price">20 USD</p>
-      <button>Add to Cart</button>
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
+        <h3>Lily Blossom</h3>
+        <p class="price">20 USD</p>
+        <button>Add to Cart</button>
+      </div>
     </div>
-  </div>
-</section>
-<!-- Trusted Section -->
-<section class="trusted-section">
-  <div class="trusted-left">
-    <div class="image-container">
-      <img src="./assets/flower-store.png" alt="Top view flower shop">
-      <img src="./assets/trusted-badge.png" alt="Trusted Seller Badge" class="badge">
+  </section>
+  <!-- Trusted Section -->
+  <section class="trusted-section container">
+    <div class="trusted-left">
+      <div class="image-container">
+        <img src="./assets/flower-store.png" alt="Top view flower shop">
+        <img src="./assets/trusted-badge.png" alt="Trusted Seller Badge" class="badge">
+      </div>
     </div>
-  </div>
-  <div class="trusted-right">
-    <h2>Flower & Plants <br>Lover</h2>
-    <ul>
-      <li class="description">
-        Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic blooms, we offer a wide variety<br>of fresh.
-      </li>
-      <li class="description">
-        Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic blooms, we offer a wide variety<br>of fresh.
-      </li>
-      <li class="description">
-        Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic blooms, we offer a wide variety<br>of fresh.
-      </li>
-    </ul>
-  </div>
-</section>
-<!-- Deals Section -->
- <section class="deals-section">
+    <div class="trusted-right">
+      <h2>Flower & Plants <br>Lover</h2>
+      <ul>
+        <li class="description">
+          Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic
+          blooms, we offer a wide variety<br>of fresh.
+        </li>
+        <li class="description">
+          Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic
+          blooms, we offer a wide variety<br>of fresh.
+        </li>
+        <li class="description">
+          Indulge your senses with the beauty and<br>fragrance of our fresh flower shop. From classic<br>roses to exotic
+          blooms, we offer a wide variety<br>of fresh.
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Deals Section -->
+  <section class="deals-section container">
     <h2><span class="orange">Latest</span> Deals</h2>
     <p class="subtitle description">
-      Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+      Indulge your senses with the beauty and fragrance of our fresh flower shop.
       From classic roses to exotic blooms, we offer a wide variety of fresh.
     </p>
     <div class="deal-cards">
@@ -148,50 +158,52 @@
       </div>
     </div>
   </section>
-  <body>
-  <!-- Subscription Banner -->
-  <section class="subscribe-section">
-    <div class="overlay">
-      <h2>Join the colorful Bunch</h2>
-      <div class="subscribe-box">
-        <input type="email" placeholder="Write email" />
-        <button>Subscribe</button>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-left">
-        <img src="./assets/logo.png" alt="Faugei Logo" class="logo" />
-        <p class="description">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
-      </div>
-      <div class="footer-links">
-        <div class="description">
-          <h4>Home</h4>
-          <p>About Us</p>
-          <p>Blog</p>
-          <p>FAQ</p>
-          <p>Contact Us</p>
-        </div>
-        <div class="description">
-          <h4>Features</h4>
-          <p>Pricing</p>
-          <p>Privacy Policy</p>
-          <p>Terms of Service</p>
-          <p>Help Center</p>
+  <body>
+    <!-- Subscription Banner -->
+    <section class="subscribe-section">
+      <div class="overlay">
+        <h2>Join the colorful Bunch</h2>
+        <div class="subscribe-box">
+          <input type="email" placeholder="Write email" />
+          <button>Subscribe</button>
         </div>
       </div>
-      <div class="footer-social">
-        <a href="#"><img src="./assets/icon-linkedin.png" alt="LinkedIn"/></a>
-        <a href="#"><img src="./assets/icon-twitter.png" alt="X"/></a>
-        <a href="#"><img src="./assets/icon-facebook.png" alt="Facebook"/></a>
-        <a href="#"><img src="./assets/icon-youtube.png" alt="YouTube"/></a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <img src="./assets/logo.png" alt="Faugei Logo" class="logo" />
+          <p class="description">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+        </div>
+        <div class="footer-links">
+          <div class="description">
+            <h4>Home</h4>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>FAQ</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="description">
+            <h4>Features</h4>
+            <p>Pricing</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Help Center</p>
+          </div>
+        </div>
+        <div class="footer-social">
+          <a href="#"><img src="./assets/icon-linkedin.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="./assets/icon-twitter.png" alt="X" /></a>
+          <a href="#"><img src="./assets/icon-facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="./assets/icon-youtube.png" alt="YouTube" /></a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </body>
 </body>
 </body>
-</body>
+
 </html>
