@@ -4,12 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+body{
+  font-family: 'Noto Serif', serif;
   background-color: #f8faff;
   color: #333;
 }
 
+.description{
+    font-family: 'inter', serif;
+}
+
+
+/* Navbar section style */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,7 +34,7 @@ body {
 }
 
 .brand {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Serif', serif;
   color: #d9480f;
   font-size: 20px;
   line-height: 1;
@@ -50,7 +56,7 @@ nav a.active {
   font-weight: bold;
   color: #000;
 }
-
+/* banner section style */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -63,7 +69,7 @@ nav a.active {
 }
 
 .hero-text h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -91,4 +97,307 @@ nav a.active {
   height: auto;
 }
 
+/* card section style */
+.product-section {
+  padding: 60px 80px;
+  text-align: center;
+}
 
+.product-section h2 {
+  font-size: 36px;
+  font-family: 'Noto Serif', serif;
+  margin-bottom: 10px;
+}
+
+.orange {
+  color: #f26522;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 4fr));
+  gap: 50px 20px;
+  justify-items: center;
+}
+
+.product-card {
+  background-color: #fff;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #f26522;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #c74f15;
+}
+
+/* trusted-section styles */
+.trusted-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+  padding: 60px 80px;
+
+}
+
+.trusted-left {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img:first-child {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  filter: brightness(0.9);
+}
+
+.image-container .badge {
+  position: absolute;
+  top: -70px;
+  right: -50px;
+  width: 200px;
+}
+
+.trusted-right {
+  max-width: 600px;
+}
+
+.trusted-right h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.trusted-right ul {
+  padding-left: 20px;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.trusted-right li {
+  margin-bottom: 15px;
+}
+
+/* Deals Section Styles */
+
+.deals-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.deals-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.deals-section .highlight {
+  color: #f26522;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #777;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 0.95rem;
+}
+
+.deal-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-card.small {
+  width: 250px;
+  height: 120px;
+}
+
+.deal-card.large {
+  width: 500px;
+  height: 260px;
+}
+
+.deal-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.deal-text span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* Subscription Section */
+.subscribe-section {
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.subscribe-box input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+.subscribe-box button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #f26522;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left .logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links div h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-links div p {
+  color: #666;
+  margin: 5px 0;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
