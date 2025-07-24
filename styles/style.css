@@ -343,6 +343,9 @@ nav a.active {
   color: white;
   cursor: pointer;
 }
+.subscribe-box button:hover {
+  background-color: #c74f15;
+}
 
 /* Footer */
 .footer {
